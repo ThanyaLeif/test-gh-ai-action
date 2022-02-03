@@ -3,7 +3,7 @@ name: Accessibility Validation
 on:
     push:
         branches:
-            - main
+            - master
     pull_request:
         branches:
             - '**'
@@ -22,7 +22,7 @@ jobs:
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   # Provide either site-dir or url
-                  # site-dir: ${{ github.workspace }}/path-to-built-website
+                  site-dir: ${{ github.workspace }}/website-root
                   # url: your-website-url
 
             - name: Upload report artifact
