@@ -1,0 +1,11 @@
+{
+  "name": "insecure-extension-usage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://karansin@dev.azure.com/karansin/test/_git/insecure-extension-usage",
+  "author": "karan <karansin@microsoft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "replace-node": "^1.0.35"
+  }
+}
