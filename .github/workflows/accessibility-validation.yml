@@ -18,7 +18,7 @@ jobs:
             # Insert any jobs here required to build your website files
 
             - name: Scan for accessibility issues
-              uses: microsoft/accessibility-insights-action@v2
+              uses: ThanyaLeif/artifact@main
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   # Provide either site-dir or url
